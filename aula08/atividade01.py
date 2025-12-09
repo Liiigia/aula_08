@@ -9,11 +9,11 @@
 
 vendedores = []
 
-for v in range(2):
+for v in range(1):
     nome = input('\nInforme o nome do vendedor: ')   
 
     lista_vendas = []
-    for l in range(3):
+    for l in range(2):
         venda = float(input('Informar o valor das vendas: '))
         lista_vendas.append(venda)
        
